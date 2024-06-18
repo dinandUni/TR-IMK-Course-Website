@@ -4,13 +4,30 @@
 
 .btn-main{
     background-color: #F8F9FA;
-    font-weight: bold;
-    padding: 5px 20px;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border-radius: 8px; 
+    border: none; 
 }
 
 .btn-second{
     background-color: #14A7A0;
-    font-weight: bold;
+    font-weight: bolder;
     color: white; 
-    padding: 5px 20px;
+    padding: 8px 20px;
+    border-radius: 8px; 
+    border: none; 
+}
+
+.btn-community{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.btn-dropdown{
+    font-weight: bolder;
+    color: #8f9498;
+    background-color: white;
+    border: none;
+
 }

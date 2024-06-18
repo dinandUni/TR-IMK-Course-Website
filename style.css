@@ -19,6 +19,11 @@
     border: none; 
 }
 
+.btn-register{
+    margin-right: 90px;
+}
+
+
 .btn-community{
     margin-right: 50px;
     margin-left: 10px;

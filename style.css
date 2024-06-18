@@ -1,0 +1,16 @@
+*{
+    font-family: 'Open Sans';
+}
+
+.btn-main{
+    background-color: #F8F9FA;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.btn-second{
+    background-color: #14A7A0;
+    font-weight: bold;
+    color: white; 
+    padding: 5px 20px;
+}

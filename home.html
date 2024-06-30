@@ -22,21 +22,28 @@
         <button class="btn-home btn-dropdown" type="button"> <a href="home.html">HOME</a> </button>
       </div>
 
-      <!-- diganti select option -->
-      <div class="btn-dropdown">
-        <button class="btn-course btn-dropdown dropdown-toggle me-4" type="button" data-toggle="dropdown"> COURSE <span
-            class="caret"></span> </button>
-        <ul class="dropdown-menu">
-          <li><a href="#">Isi 1</a></li>
-          <li><a href="#">Isi 2</a></li>
-          <li><a href="#">Isi 3</a></li>
-          <li><a href="#">Isi 4</a></li>
-        </ul>
+      <div class="me-4">
+        <select class="form-select" aria-label="Course navigation" onchange="location = this.value;">
+          <option selected disabled>COURSE</option>
+          <option value="web.html">Web</option>
+          <option value="android.html">Android</option>
+          <option value="python.html">Python</option>
+          <option value="js.html">JavaScript</option>
+          <option value="java.html">Java</option>
+          <option value="laravel.html">Laravel</option>
+          <option value="golang.html">Go Lang</option>
+          <option value="php.html">Php</option>
+          <option value="vue.html">Vue</option>
+        </select>
       </div>
 
-      <div class="btn-dropdown">
-        <button class="btn-community btn-dropdown dropdown-toggle" type="button" data-toggle="dropdown"> COMMUNITY <span
-            class="caret"></span> </button>
+      <div class="me-4">
+        <select class="form-select" aria-label="Community navigation" onchange="location = this.value;">
+          <option selected disabled>COMMUNITY</option>
+          <option value="diskusi.html">Discussion</option>
+          <option value="mentor.html">Mentor</option>
+          <option value="share.html">Share</option>
+        </select>
       </div>
 
 
@@ -133,7 +140,7 @@
       <div class="card-body">
         <img class="card-img-top" src="asset/html.jpeg" alt="Card image cap">
         <div class="text-section">
-          <h5 class="card-title">HTML</h5>
+          <h5 class="card-title">Web</h5>
           <span class="fas fa-book"></span> 
           <p class="card-text">3 Kelas</p>
         </div>

@@ -2,11 +2,19 @@
   font-family: "Open Sans";
   margin: 0;
   padding: 0;
-
 }
 
-nav{
-  
+.btn-home a,
+.btn-course a,
+.btn-community a,
+.btn-login a,
+.btn-register a {
+  text-decoration: none;
+  color: inherit;
+}
+
+select{
+  border: none;
 }
 
 .btn-main {
@@ -55,6 +63,8 @@ nav{
   margin-bottom: 0;
 }
 
+
+
 .container-banner {
   background:url(asset/banner.svg) no-repeat;
   background-size: cover;
@@ -95,7 +105,7 @@ nav{
   border: none;
   max-width: 30em;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+  /* border-radius: 20px; */
 }
 
 .card-body{

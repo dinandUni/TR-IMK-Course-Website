@@ -55,6 +55,21 @@ select {
   border: none;
 }
 
+.form-select{
+  color: #8f9498;
+  font-weight: bold;
+  border: none; /* Hilangkan border */
+  outline: none; /* Hilangkan outline */
+  box-shadow: none;
+}
+
+.form-select option{
+  color: #8f9498;
+  font-weight: bold;
+  /* margin-top: 10px; */
+
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -126,4 +141,74 @@ select {
 
 .card-title {
   font-weight: bolder;
+}
+
+.container-form{
+  /* background-color: red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  margin-top: 70px;
+  /* padding: auto; */
+
+}
+
+.container-form-register{
+  /* background-color: red; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  /* padding: auto; */
+
+}
+
+.input-section{
+  width: 350px;
+  height: 250px;
+  margin: auto;
+}
+
+
+.title-form{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: light;
+  margin-bottom: 50px;
+
+}
+
+#email{
+  margin-bottom: 30px;
+}
+
+#password{
+  margin-bottom: 30px;
+}
+
+#button-submit {
+  text-decoration: none;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: bolder;
+  background-color: #14a7a0;
+}
+
+#fullname{
+  margin-bottom: 30px;
+}
+
+#username{
+  margin-bottom: 30px;
+}
+
+#wa{
+  margin-bottom: 30px;
 }

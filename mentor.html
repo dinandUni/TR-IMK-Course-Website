@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="h3">OKE</h1>
+            </div>
+            <div class="col-md-6 text-right navbar-right">
+                <a href="home.logged.html" class="btn btn-sm btn-outline-primary">HOME</a>
+                <a href="home.html" class="btn btn-sm btn-outline-primary">LOGOUT</a>
+                <img src="https://via.placeholder.com/50" alt="User Avatar" class="rounded-circle ml-2">
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="container py-5">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="https://via.placeholder.com/300x300" alt="Mentor Photo" class="img-fluid rounded mentor-photo">
+            <button type="button" class="btn btn-primary btn-block tanya-mentor-btn" data-toggle="modal" data-target="#tanyaMentorModal">Tanya Mentor</button>
+        </div>
+        <div class="col-md-8 mentor-info">
+            <h2>Yustinus Ezra Bagaskara</h2>
+            <p>Data Analyst | Data Science | 10+ Tahun pengalaman</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Donec sed odio dui. Maecenas faucibus mollis interdum.</p>
+            
+            <!-- Courses Section -->
+            <h3>Courses</h3>
+            <div class="row courses">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Course 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Python for Beginners</h5>
+                            <p class="card-text">Learn the basics of Python programming.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Course 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Analysis with Python</h5>
+                            <p class="card-text">Analyze data using Python libraries.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Course 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Advanced Python Programming</h5>
+                            <p class="card-text">Master advanced Python techniques.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Modal Window -->
+<div class="modal fade" id="tanyaMentorModal" tabindex="-1" role="dialog" aria-labelledby="tanyaMentorModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="tanyaMentorModalLabel">Tanya Mentor</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Modal Content -->
+                <form>
+                    <div class="form-group">
+                        <label for="question">Pertanyaan</label>
+                        <textarea class="form-control" id="question" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

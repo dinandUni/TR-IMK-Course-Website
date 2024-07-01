@@ -1,0 +1,141 @@
+* {
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+  }
+  
+  .btn-home a,
+  .btn-course a,
+  .btn-community a,
+  .btn-login a,
+  .btn-register a,
+  .btn-logout a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  select {
+    border: none;
+  }
+  
+  .btn-main {
+    background-color: #f8f9fa;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .btn-second {
+    background-color: #14a7a0;
+    font-weight: bolder;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .btn-dropdown .btn-home {
+    margin-right: 50px;
+  }
+  
+  .btn-register {
+    margin-right: 9px;
+  }
+  
+  .btn-community {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+  
+  .btn-dropdown {
+    font-weight: bolder;
+    color: #8f9498;
+    background-color: white;
+    border: none;
+  }
+  
+  .form-select{
+    color: #8f9498;
+    font-weight: bold;
+    border: none; /* Hilangkan border */
+    outline: none; /* Hilangkan outline */
+    box-shadow: none;
+  }
+  
+  .form-select option{
+    color: #8f9498;
+    font-weight: bold;
+    /* margin-top: 10px; */
+  
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+
+  .card-group {
+    padding: 4em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 20px;
+  
+  }
+
+  .card{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  } 
+
+  .card-title{
+    font-weight: bolder;
+    color: #474747;
+  }
+
+  .small-text{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: small;
+    color: #808080;
+  }
+
+  .header{
+    border: none;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+
+  .header-title{
+    font-weight: bolder;
+    color: #474747;
+  }
+
+  .header-text{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    color: #808080;
+  }
+
+  .section-materi{
+    margin-left: 50px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color:#084340;
+  }
+
+  .vidio{
+    padding-top: 50px;
+  }
+
+  .isi-materi{
+    font-weight: bold;
+    margin: auto;
+    padding: 30px;
+  }

@@ -1,0 +1,41 @@
+/* Custom CSS */
+.mentor-photo {
+    margin-bottom: 20px;
+}
+
+.mentor-info h2 {
+    margin-top: 0;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    margin-right: 5px;
+}
+
+.navbar-right img {
+    width: 50px;
+    height: 50px;
+}
+
+.courses .card {
+    margin-bottom: 20px;
+}
+
+.tanya-mentor-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.tanya-mentor-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
